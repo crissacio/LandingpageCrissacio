@@ -38,23 +38,7 @@ body, html {
   object-fit: cover;
   z-index: -2;
   filter: blur(2px) brightness(0.6);
-  opacity: 0;
-  animation: fadeVideo 2s ease forwards;
-}
-
-/* Imagen de respaldo si el video falla */
-body::before {
-  content: "";
-  background-image: url('assets/fondo-backup.jpg');
-  background-size: cover;
-  background-position: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -3;
-  opacity: 0.5;
+  opacity: 1; /* Asegura que el video se vea desde el inicio */
 }
 
 /* ================================
@@ -155,11 +139,5 @@ p {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@keyframes fadeVideo {
-  to {
-    opacity: 1;
   }
 }
