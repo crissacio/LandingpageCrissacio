@@ -1,4 +1,13 @@
-/* Reset básico */
+/*VARIABLES Y FUENTES*/
+:root {
+  --color-bg: #17203D;
+  --color-accent: #FECB2F;
+  --color-accent-hover: #FFD95A;
+  --font-title: 'Raleway', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/*RESET Y BASE*/
 * {
   margin: 0;
   padding: 0;
@@ -7,11 +16,13 @@
 
 body, html {
   height: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: white;
   overflow: hidden;
-}   
+}
 
-/* Video de fondo */
+/*VIDEO DE FONDO*/
 .video-bg {
   position: fixed;
   top: 0;
@@ -23,7 +34,7 @@ body, html {
   filter: blur(2px) brightness(0.6);
 }
 
-/* Capa difuminada */
+/*CAPA DIFUMINADA*/
 .overlay {
   position: absolute;
   top: 0;
@@ -34,21 +45,20 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
-/* Contenido principal */
+/*CONTENIDO PRINCIPAL*/
 .content {
   text-align: center;
-  color: white;
-  padding: 20px;
   max-width: 700px;
 }
 
-/* Título principal */
+/* TÍTULO */
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font-title);
   font-size: 3em;
-  background: linear-gradient(to right, #00C6FF, #FECB2F);
+  background: linear-gradient(to right, #00C6FF, var(--color-accent));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -56,18 +66,19 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* PÁRRAFO */
 p {
   font-size: 1.2em;
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
-/* Botón CTA */
+/*BOTÓN CTA*/
 .cta {
   display: inline-block;
   padding: 12px 24px;
-  background: #FECB2F;         /* amarillo cálido, llama a la acción */
-  color: #17203D;              /* azul petróleo, elegante y legible */
+  background: var(--color-accent);
+  color: var(--color-bg);
   font-weight: bold;
   text-decoration: none;
   border-radius: 8px;
@@ -76,5 +87,21 @@ p {
 }
 
 .cta:hover {
-  background: #FFD95A;         /* tono más claro al pasar el mouse */
+  background: var(--color-accent-hover);
+}
+
+/*RESPONSIVE*/
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .cta {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
 }
