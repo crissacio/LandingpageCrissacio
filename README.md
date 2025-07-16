@@ -42,7 +42,7 @@ LandingpageCrissacio/
 
 Si querés conectarte o tenés ideas para colaborar, escribime:
 
-- ✉️ [tuemail@example.com](cristianquito.edu@gmail.com)
+- ✉️ [Gmail](cristianquito.edu@gmail.com)
 - 🌐 [LinkedIn](https://linkedin.com/in/tu-perfil)
 - 📁 [GitHub](https://github.com/crissacio)
 
