@@ -7,9 +7,9 @@
 
 body, html {
   height: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   overflow: hidden;
-}
+}   
 
 /* Video de fondo */
 .video-bg {
@@ -44,9 +44,11 @@ body, html {
   max-width: 700px;
 }
 
+/* Título principal */
 h1 {
+  font-family: 'Raleway', sans-serif;
   font-size: 3em;
-  background: linear-gradient(to right, #00c6ff, #0072ff);
+  background: linear-gradient(to right, #00C6FF, #FECB2F);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -64,8 +66,9 @@ p {
 .cta {
   display: inline-block;
   padding: 12px 24px;
-  background: #0072ff;
-  color: white;
+  background: #FECB2F;         /* amarillo cálido, llama a la acción */
+  color: #17203D;              /* azul petróleo, elegante y legible */
+  font-weight: bold;
   text-decoration: none;
   border-radius: 8px;
   font-size: 1em;
@@ -73,5 +76,5 @@ p {
 }
 
 .cta:hover {
-  background: #005bb5;
+  background: #FFD95A;         /* tono más claro al pasar el mouse */
 }
