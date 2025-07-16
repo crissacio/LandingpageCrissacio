@@ -83,6 +83,15 @@ p {
   margin-bottom: 30px;
 }
 
+/* PROPIEDAD STACK */
+.stack {
+  margin-top: 20px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--color-accent);
+}
+
 /* BOTÓN CTA */
 .cta {
   display: inline-block;
