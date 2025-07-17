@@ -5,7 +5,7 @@ Bienvenido a mi primera landing page desarrollada con HTML y CSS puro. Este proy
 ## 📽️ Vista previa
 🔗 [Demo en vivo]
 📸 Fondo con video libre de derechos  
-🎨 Estilo corporativo con fuente Montserrat
+🎨 Estilo corporativo
 
 ## 🚀 Tecnologías usadas
 
