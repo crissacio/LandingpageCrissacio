@@ -11,7 +11,7 @@ Bienvenido a mi primera landing page desarrollada con HTML y CSS puro. Este proy
 
 - HTML5
 - CSS3
-- Google Fonts (Montserrat)
+- Google Fonts
 - Video background libre de copyright
 
 ## ✨ Características
@@ -27,6 +27,8 @@ Bienvenido a mi primera landing page desarrollada con HTML y CSS puro. Este proy
 LandingpageCrissacio/ 
 ├── index.html 
 ├── style.css 
+├── data/ 
+ └── tareas.json
 └── assets/
  └── video.mp4
  
